@@ -3,15 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
     <title>---</title>
   </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">Test</div>
+  <body class="bg-slate-900 text-white min-h-screen flex items-center justify-center p-4">
+
+    <!-- Container Utama -->
+    <div class="w-full max-w-md mx-auto text-center">
+      
+      <!-- Foto Profil -->
+      <div class="mb-4">
+        <img src="assets/images/bhotack.webp" 
+            alt="Foto Profil" 
+            class="w-24 h-24 rounded-full mx-auto border-2 border-slate-50 shadow-lg object-cover">
       </div>
+
+      <!-- Nama & Bio -->
+      <h1 class="text-xl font-bold mb-1">Imam Suju</h1>
+      <p class="text-slate-400 text-sm mb-6">Pengembang Web - Bukan Desainer</p>
+
+      <!-- Daftar Link -->
+      <div class="space-y-3">
+        <a href="https://instagram.com/profile.php" target="_blank" class="block w-full py-3 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl font-medium transition duration-200 shadow-md hover:scale-[1.02]">
+          <i class="bi bi-instagram" aria-hidden="true"></i>
+          Instagram
+        </a>
+        
+        <a href="https://youtube.com" target="_blank" class="block w-full py-3 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl font-medium transition duration-200 shadow-md hover:scale-[1.02]">
+          <i class="bi bi-youtube" aria-hidden="true"></i>
+          YouTube
+        </a>
+
+        <a href="https://github.com" target="_blank" 
+          class="block w-full py-3 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl font-medium transition duration-200 shadow-md hover:scale-[1.02]">
+          <i class="bi bi-github" aria-hidden="true"></i>
+          GitHub
+        </a>
+
+        <a href="mailto:email@example.com" 
+          class="block w-full py-3 px-4 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-xl font-medium transition duration-200 shadow-md hover:scale-[1.02]">
+          <i class="bi bi-envelope" aria-hidden="true"></i>
+          Email
+        </a>
+      </div>
+
+      <!-- Footer -->
+      <footer class="mt-8 text-xs text-slate-500">
+        &copy; 2026 Dibuat dengan Tailwind CSS
+      </footer>
+
     </div>
-    <script type="module" src="assets/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+
   </body>
 </html>
